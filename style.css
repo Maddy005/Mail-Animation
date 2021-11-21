@@ -1,0 +1,210 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+    body{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-image: url(./distressed_grunge_with_diagonal_ink_stripe_background.jpg);
+        background-position: center;
+        background-size: cover;
+    
+    }
+    .container{
+        background-image: url(./distressed_grunge_with_diagonal_ink_stripe_background.jpg);
+        width: 40%;
+        height: 80vh;
+        border-radius: 50%;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.781),
+        -6px -6px 10px rgba(0, 0, 0, 0.781);
+        animation-name: animeO;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        
+        
+      
+
+      
+    
+    }
+    .container:focus{
+        opacity: 1;
+        transform: rotate(333deg);
+    }
+    .left-hand{
+        position: relative;
+        top: 36%;
+        left: 23.2%;
+        width: 9%;
+        height: 26vh;
+        background-color: #4385f4;
+        border-radius: 23px 20px 0px 10px;
+        z-index: 1;
+        overflow: hidden;
+        box-shadow:2px 2px 10px #000000; 
+        animation-name: anime2;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+      
+        
+    
+    }
+    @keyframes anime2{
+        from{
+           margin-top: 70px;
+        }
+        to{
+            transform: rotate(0deg);
+        }
+
+    
+        
+    }
+    .top{
+        position: absolute;
+        width: 70px;
+        height: 50px;
+        background-color:#880018;
+        z-index: 1;
+        transform: rotate(34deg);
+        border-radius: 40px 0px 0px 40px;   
+        left: -2px;
+        top: 4px;
+        overflow: hidden;
+        box-shadow:2px 2px 10px #000000;
+        animation-name: anime;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        
+    
+    }
+    @keyframes anime{
+        from{
+            transform: rotate(90deg);
+        }
+        to{
+            transform: rotate(33deg);
+        }
+    }
+    .right-hand{
+        position: relative;
+        top: 4%;
+        left: 63%;
+        width: 9.2%;
+        height: 26.3vh;
+        background-color: #34a853;
+        border-radius: 30px 30px 10px 0px;
+        box-shadow:1px 1px 10px #000000;    
+        overflow: hidden;
+        z-index: 1;
+        animation-name: anime3;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        
+    
+    }
+    @keyframes anime3{
+        from{
+            left: 30px;
+
+        }
+        to{
+           margin-top: 0px;
+        }
+
+        
+    }
+    .right{
+        position: absolute;
+        width: 90px;
+        height: 55px;
+        background-color:#fbbc05;
+        box-shadow:2px 2px 10px #000000;    
+        transform: rotate(-34deg);
+         
+        left: -23px;
+        top: -1px;
+       
+        animation-name: anime5;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        
+    
+    }
+    @keyframes anime5{
+        from{
+            transform: rotate(-92deg);
+        }
+        to{
+            transform: rotate(-34deg);
+        }
+        
+    
+
+    }
+    .left-mid-hand{
+        width: 31%;
+        height: 10%;
+        background-color: #ea4335;
+    z-index:0 ;
+        position: relative;
+        box-shadow:2px 2px 10px #000000;    
+        left: 23%;
+        top: -119px;
+        transform: rotate(34deg);
+        border-radius: 40px 2px 10px 40px;
+        animation-name: anime;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        
+    
+    }
+    @keyframes anime{
+        from{
+            transform: rotate(90deg);
+        }
+        to{
+            transform: rotate(30deg);
+        }
+
+
+    }
+    .right-mid-hand{
+        width: 31%;
+        height: 10%;
+        background-color: #ea4335;
+        border-radius: 0px 40px 40px 0px;
+        box-shadow:4px 4px 2px #0000007c; 
+        position: relative;
+        left: 43%;
+        top: -174px;
+        z-index:0 ;
+
+        transform: rotate(-34deg);
+        animation-name: anime6;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        
+    
+    }
+    @keyframes anime6{
+        from{
+            transform: rotate(90deg);
+        }
+        to{
+            transform: rotate(-35deg);
+        }
+    }
+    #W{
+        position: absolute;
+        left: 48%;
+        font-weight: 700;
+        font-family: 'poppins';
+        font-size: 10px;
+        color: #880018;
+    }
